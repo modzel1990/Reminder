@@ -1,0 +1,153 @@
+  /* ############################################### LAPTOPS & DESKTOPS ############################################################ */
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) {
+    
+    //Nav
+    .sticky {
+      position: fixed !important;
+      background-color: rgba(255,255,255,0.7) !important;
+    }
+    
+  }
+  
+/* ############################################# TABLETS & IPADS (PORTRAIT) #################################################### */
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+      
+    
+  }
+ 
+/* ############################################ TABLETS & IPADS (LANDSCAPE) ############################################################## */  
+
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+  }
+
+/* ########################################################################################################################## */  
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  // @media (min-width: 481px) and (max-width: 767px) {
+    
+  //   body {
+  //       background-color: yellow !important;
+  //   }
+    
+  // }
+  
+/* ################################################ MOBILE ######################################################### */
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 767px
+  */
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    
+    // Nav
+    .navmobile {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    #navmobilebtn {
+      display: block !important;
+      position: fixed;
+      right: 1%;
+      top: 1%;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      border: 1px solid rgba(255,255,255,1);
+      z-index: 9999;
+    }
+
+    .navbar-login {
+      float: none !important;
+      text-align: center !important;
+      width: 100%;
+      margin: auto;
+      padding: 0;
+      li {
+          padding: 0;
+          text-align: center;
+          min-width: 100px;
+          width: fit-content;
+      }
+    }
+    
+    .sticky {
+      position: fixed !important;
+      background-color: rgba(255,255,255,1) !important;
+    }
+
+    .navspacer {
+      display: none !important;
+    }
+
+    .logo-box {
+      max-width: 100%;
+      display: block;
+    }
+
+    .logo {
+      max-width: 100% !important;
+      min-width: 150px !important;
+    }
+
+    .navbar {
+      background-color: rgba(255,255,255,1) !important;
+      border-radius: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      position: fixed !important;
+      top: 0 !important;
+      right: 0 !important;
+      padding-top: 50px;
+      display: none;
+    }
+
+    .nav {
+      text-align: center !important;
+      float: none !important;
+      width: 100%;
+    }
+
+    .nav li {
+      width: 100% !important;
+      display: inline-block !important;
+    }
+    
+    // Hero Slider
+    #heroCarousel {
+      margin-top: 0px !important;
+    }
+
+    .carousel-item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      min-height: 300px !important;
+      max-height: 300px !important;
+    }
+    
+  }
